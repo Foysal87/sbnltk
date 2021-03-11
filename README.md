@@ -62,6 +62,18 @@ pip3 install sbnltk
 |     So many others features    |     ---      |
 
 
+## Package Installation
+
+You have to install these packages manually, if you get any module error.
+* simpletransformers
+* fasttext
+
+## Models
+Everything is automated here. when you call a model for the first time, it will download the model one time automatically.
+
+## With GPU or Without GPU
+* With GPU, you can run any models without getting any error
+* Without GPU, You will get some warnings. But this will not affect in result.
 
 ## Motivation
 With approximately 228 million native speakers and another 37 million as second language speakers,Bengali is the fifth most-spoken native 
@@ -77,7 +89,7 @@ I will release a trainer module soon.
 Very soon. We are working on paper for security issue and improvement our modules. It will be released sequentially.
 
 ## About accuracy
-Accuracy can be varied for the different datasets. We measure our model with random datasets but small scale. As human resources for this project is not so large.
+Accuracy can be varied for the different datasets. We measure our model with random datasets but small scale. As human resources for this project are not so large.
 
 ## Contribute Here
 * If you found any issue, please create an issue or contact with me.
