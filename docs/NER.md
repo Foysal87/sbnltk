@@ -75,7 +75,7 @@ print(sn.tag(['গত ৩১শে জুলাই বাংলাদেশে�
 
 ## Bert Multilingual Uncased NER
 **INPUT:** list of Sentence \
-**OUTPUT:**  list of -> list of pair(word,tag)  \
+**OUTPUT:**  list of -> list of pair map(word,tag)  \
 **PROCESS:** predict from pretrain bert \
 **USE CASE:** Any NLP sector
 ```python
