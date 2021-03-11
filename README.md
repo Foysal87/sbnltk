@@ -8,44 +8,43 @@ Demo Version : 1.0
 pip3 install sbnltk
 ```
 ### MANUAL INSTALLATION FROM GITHUB
-
-```commandline
-
-```
+* Clone this project
+* Install all the requirements
+* Call the setup.py from terminal
 
 ## TASKS AND MODELS
 |            TASK           |                               MODEL                               |    ACCURACY    |         DATASET         | About | Code DOCS |
 |:-------------------------:|:-----------------------------------------------------------------:|:--------------:|:-----------------------:|:-----:|:---------:|
-|        Preprocessor       | Punctuation, Stop Word, DUST removal Word normalization, others.. |     ------     |          -----          |       |           |
-|      Word tokenizers      |               basic tokenizers Customized tokenizers              |      ----      |           ----          |       |           |
-|    Sentence tokenizers    |      Basic tokenizers Customized tokenizers Sentence Cluster      |      -----     |          -----          |       |           |
-|          Stemmer          |                             StemmerOP                             |      85.5%     |           ----          |       |           |
-|     Sentiment Analysis    |                         logisticRegression                        |      88.5%     |         20,000+         |       |           |
-|                           |                             LinearSVC                             |      82.3%     |         20,000+         |       |           |
-|                           |                      Multilnomial_naive_bayes                     |      84.1%     |         20,000+         |       |           |
-|                           |                           Random Forest                           |      86.9%     |         20,000+         |       |           |
-|                           |                                BERT                               |      93.2%     |         20,000+         |       |           |
-|         POS tagger        |                           Static method                           |      55.5%     |     1,40,973  words     |       |           |
-|                           |                      SK-LEARN classification                      |      81.2%     |     6,000+ sentences    |       |           |
-|                           |                        BERT-Multilingual-Cased                    |      69.2%     |          6,000+         |       |           |
-|                           |                     BERT-Multilingual-Uncased                     |      78.7%     |          6,000+         |       |           |
-|         NER tagger        |                           Static method                           |      65.3%     |     4,08,837 Entity     |       |           |
-|                           |                      SK-LEARN classification                      |      81.2%     |         65,000+         |       |           |
-|                           |                             BERT-Cased                            |      79.2%     |         65,000+         |       |           |
-|                           |                       BERT-Mutilingual-Cased                      |      75.5%     |         65,000+         |       |           |
-|                           |                     BERT-Multilingual-Uncased                     |      90.5%     |         65,000+         |       |           |
-|       Word Embedding      |             Gensim-word2vec-100D- 1,00,00,000+ tokens             |        -       | 2,00,00,000+  sentences |       |           |
-|                           |               Glove-word2vec-100D- 2,30,000+ tokens               |        -       |    5,00,000 sentences   |       |           |
-|                           |                  fastext-word2vec-200D 3,00,000+                  |        -       |    5,00,000 sentences   |       |           |
-|     Sentence Embedding    |                   Contextual sentence embedding                   |        -       |          -----          |       |           |
-|                           |                      Transformer embedding_hd                     |        -       |   3,00,000+ human data  |       |           |
-|                           |                      Transformer embedding_gd                     |        -       |  3,00,000+ google data  |       |           |
-| Extractive  Summarization |                        Feature-based based                        | 70.0% f1 score |          ------         |       |           |
-|                           |                Transformer sentence sentiment Based               |      67.0%     |          ------         |       |           |
-|                           |                Word2vec--sentences contextual Based               |      60.0%     |          -----          |       |           |
-|    Bi-lingual projects    |             google translator with large data detector            |      ----      |           ----          |       |           |
-|   Information Extraction  |                        Static word features                       |        -       |                         |       |           |
-|                           |                      Semantic and contextual                      |        -       |                         |       |           |
+|        Preprocessor       | Punctuation, Stop Word, DUST removal Word normalization, others.. |     ------     |          -----          |       |[docs](https://github.com/Foysal87/sbnltk/blob/main/docs/preprocessor.md)         |
+|      Word tokenizers      |               basic tokenizers Customized tokenizers              |      ----      |           ----          |       | [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Tokenizer.md#word-tokenizer)          |
+|    Sentence tokenizers    |      Basic tokenizers Customized tokenizers Sentence Cluster      |      -----     |          -----          |       | [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Tokenizer.md#sentence-tokenizer)         |
+|          Stemmer          |                             StemmerOP                             |      85.5%     |           ----          |       | [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Stemmer.md)          |
+|     Sentiment Analysis    |                         logisticRegression                        |      88.5%     |         20,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentiment%20Analyzer.md#logistic-regression)         |
+|                           |                             LinearSVC                             |      82.3%     |         20,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentiment%20Analyzer.md#linear-svc)         |
+|                           |                      Multilnomial_naive_bayes                     |      84.1%     |         20,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentiment%20Analyzer.md#multinomial-naive-bayes)         |
+|                           |                           Random Forest                           |      86.9%     |         20,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentiment%20Analyzer.md#random-forest)         |
+|                           |                                BERT                               |      93.2%     |         20,000+         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentiment%20Analyzer.md#bert-sentiment-analysis)        |
+|         POS tagger        |                           Static method                           |      55.5%     |     1,40,973  words     |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Postag.md#static-postag)        |
+|                           |                      SK-LEARN classification                      |      81.2%     |     6,000+ sentences    |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Postag.md#sklearn-postag)        |
+|                           |                        BERT-Multilingual-Cased                    |      69.2%     |          6,000+         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Postag.md#bert-multilingual-cased-postag)        |
+|                           |                     BERT-Multilingual-Uncased                     |      78.7%     |          6,000+         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Postag.md#bert-multilingual-uncased-postag)        |
+|         NER tagger        |                           Static method                           |      65.3%     |     4,08,837 Entity     |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/NER.md#static-ner)       |
+|                           |                      SK-LEARN classification                      |      81.2%     |         65,000+         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/NER.md#sklearn-classification)        |
+|                           |                             BERT-Cased                            |      79.2%     |         65,000+         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/NER.md#bert-cased-ner)        |
+|                           |                       BERT-Mutilingual-Cased                      |      75.5%     |         65,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/NER.md#bert-multilingual-cased-ner)         |
+|                           |                     BERT-Multilingual-Uncased                     |      90.5%     |         65,000+         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/NER.md#bert-multilingual-uncased-ner)         |
+|       Word Embedding      |             Gensim-word2vec-100D- 1,00,00,000+ tokens             |        -       | 2,00,00,000+  sentences |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Word%20Embedding.md#gensim-word-embedding)         |
+|                           |               Glove-word2vec-100D- 2,30,000+ tokens               |        -       |    5,00,000 sentences   |       | [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Word%20Embedding.md#fasttext-word-embedding)          |
+|                           |                  fastext-word2vec-200D 3,00,000+                  |        -       |    5,00,000 sentences   |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Word%20Embedding.md#glove-word-embedding)         |
+|     Sentence Embedding    |                   Contextual sentence embedding                   |        -       |          -----          |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentence%20Embedding.md#sentence-embedding-from-word2vec)         |
+|                           |                      Transformer embedding_hd                     |        -       |   3,00,000+ human data  |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentence%20Embedding.md#sentence-embedding-transformer-human-translate-data)        |
+|                           |                      Transformer embedding_gd                     |        -       |  3,00,000+ google data  |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Sentence%20Embedding.md#sentence-embedding-transformer-google-translate-data)        |
+| Extractive  Summarization |                        Feature-based based                        | 70.0% f1 score |          ------         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Summarization.md#feature-based-model)         |
+|                           |                Transformer sentence sentiment Based               |      67.0%     |          ------         |       | [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Summarization.md#word2vec_based_model)          |
+|                           |                Word2vec--sentences contextual Based               |      60.0%     |          -----          |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Summarization.md#transformer_based_model)         |
+|    Bi-lingual projects    |             google translator with large data detector            |      ----      |           ----          |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Bangla%20translator.md#using-google-translator)         |
+|   Information Extraction  |                        Static word features                       |        -       |                         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/information%20extraction.md#feature-based-extraction)         |
+|                           |                      Semantic and contextual                      |        -       |                         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/information%20extraction.md#contextual-information-extraction)       |
 
 
 ## Next releases after testing this demo
@@ -73,6 +72,12 @@ We will release our all datasets soon.
 
 ## Trainer
 I will release a trainer module soon.
+
+## When will full version come?
+Very soon. We are working on paper for security issue and improvement our modules. It will be released sequentially.
+
+## About accuracy
+Accuracy can be varied for the different datasets. We measure our model with random datasets but small scale. As human resources for this project is not so large.
 
 ## Contribute Here
 * If you found any issue, please create an issue or contact with me.
