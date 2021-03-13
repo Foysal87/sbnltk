@@ -1,5 +1,5 @@
 # SBNLTK
-Bangla NLP toolkit. Different types of NLP models were implemented here.\
+SUST-Bangla Natural Language toolkit. A python module for Bangla NLP tasks.\
 Demo Version : 1.0
 
 ## INSTALLATION
@@ -69,10 +69,10 @@ You have to install these packages manually, if you get any module error.
 * fasttext
 
 ## Models
-Everything is automated here. when you call a model for the first time, it will download the model one time automatically.
+Everything is automated here. when you call a model for the first time, it will be downloaded automatically.
 
 ## With GPU or Without GPU
-* With GPU, you can run any models without getting any error
+* With GPU, you can run any models without getting any warnings.
 * Without GPU, You will get some warnings. But this will not affect in result.
 
 ## Motivation
@@ -86,7 +86,7 @@ We will release our all datasets soon.
 I will release a trainer module soon.
 
 ## When will full version come?
-Very soon. We are working on paper for security issue and improvement our modules. It will be released sequentially.
+Very soon. We are working on paper and improvement our modules. It will be released sequentially.
 
 ## About accuracy
 Accuracy can be varied for the different datasets. We measure our model with random datasets but small scale. As human resources for this project are not so large.
