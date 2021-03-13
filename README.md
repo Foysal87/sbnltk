@@ -12,7 +12,25 @@ pip3 install sbnltk
 * Install all the requirements
 * Call the setup.py from terminal
 
-## TASKS AND MODELS
+## What will you get here?
+* Bangla Text Preprocessor
+* Bangla word dust,punctuation,stop word removal
+* Bangla word sorting according to Bangla or English alphabet
+* Bangla word normalization
+* Bangla word stemmer
+* Bangla Sentiment analysis(logisticRegression,LinearSVC,Multilnomial_naive_bayes,Random_Forst)
+* Bangla Sentiment analysis with Bert
+* Bangla sentence pos tagger (static, sklearn)
+* Bangla sentence pos tagger with BERT(Multilingual-cased,Multilingual uncased) 
+* Bangla sentence NER(Static,sklearn)
+* Bangla sentence NER with BERT(Bert-Cased, Multilingual Cased/Uncased)
+* Bangla word word2vec(gensim,glove,fasttext)
+* Bangla sentence embedding(Contexual,Transformer/Bert)
+* Bangla Document Summarization(Feature based, Contexual, sementic Based)
+* Bangla Bi-lingual project(Bangla to english google translator without blocking IP)
+* Bangla document information Extraction
+
+## TASKS, MODELS, ACCURACY, DATASET AND DOCS
 |            TASK           |                               MODEL                               |    ACCURACY    |         DATASET         | About | Code DOCS |
 |:-------------------------:|:-----------------------------------------------------------------:|:--------------:|:-----------------------:|:-----:|:---------:|
 |        Preprocessor       | Punctuation, Stop Word, DUST removal Word normalization, others.. |     ------     |          -----          |       |[docs](https://github.com/Foysal87/sbnltk/blob/main/docs/preprocessor.md)         |
