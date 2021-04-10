@@ -1,4 +1,12 @@
+pypi-download-stats
+========================
+[![PyPI version shields.io](https://img.shields.io/pypi/v/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+[![PyPI license](https://img.shields.io/pypi/l/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+[![PyPI download month](https://img.shields.io/pypi/dm/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+   
 # SBNLTK
+
 SUST-Bangla Natural Language toolkit. A python module for Bangla NLP tasks.\
 Demo Version : 1.0
 
@@ -29,6 +37,8 @@ pip3 install sbnltk
 * Bangla Document Summarization(Feature based, Contexual, sementic Based)
 * Bangla Bi-lingual project(Bangla to english google translator without blocking IP)
 * Bangla document information Extraction
+
+**SEE THE CODE DOCS FOR USES!**
 
 ## TASKS, MODELS, ACCURACY, DATASET AND DOCS
 |            TASK           |                               MODEL                               |    ACCURACY    |         DATASET         | About | Code DOCS |
@@ -98,10 +108,11 @@ With approximately 228 million native speakers and another 37 million as second 
 language and the seventh most spoken language by total number of speakers in the world. But still it is a low resource language. Why?
 
 ## Dataset
-We will release our all datasets soon.
+For all sbnltk dataset and existing Dataset, see this link [Bangla NLP Dataset](https://github.com/Foysal87/Bangla-NLP-Dataset) 
+
 
 ## Trainer
-I will release a trainer module soon.
+For training, You can see this [Colab Trainer](https://github.com/Foysal87/NLP-colab-trainer) . In future i will make a Trainer module!
 
 ## When will full version come?
 Very soon. We are working on paper and improvement our modules. It will be released sequentially.
