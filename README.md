@@ -4,11 +4,14 @@ pypi-download-stats
 [![PyPI license](https://img.shields.io/pypi/l/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 [![PyPI download month](https://img.shields.io/pypi/dm/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+[![PyPI download week](https://img.shields.io/pypi/dw/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
+
    
 # SBNLTK
 
 SUST-Bangla Natural Language toolkit. A python module for Bangla NLP tasks.\
-Demo Version : 1.0
+Demo Version : 1.0 \
+**NEED python 3.6+ vesrion!! Use virtual Environment for not getting unessessary Issues!!**
 
 ## INSTALLATION
 ### PYPI INSTALLATION
