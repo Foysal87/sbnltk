@@ -17,6 +17,7 @@ Demo Version : 1.0 \
 ### PYPI INSTALLATION
 ```commandline
 pip3 install sbnltk
+pip3 install simpletransformers
 ```
 ### MANUAL INSTALLATION FROM GITHUB
 * Clone this project
