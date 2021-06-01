@@ -1,9 +1,9 @@
-from sbnltk.Preprocessor import preprocessor,StaticArray
-from sbnltk.Tokenizer import wordTokenizer
+from Preprocessor import preprocessor,StaticArray
+from Tokenizer import wordTokenizer
 import functools
 import re
-from sbnltk import sbnltk_default
-from sbnltk.Downloader import downloader
+import sbnltk_default
+from Downloader import downloader
 
 rule_words = ['ই', 'ও', 'তো', 'কে', 'তে', 'রা', 'চ্ছি', 'চ্ছিল', 'চ্ছে', 'চ্ছিস', 'চ্ছিলেন', 'চ্ছ', 'য়েছে', 'েছ', 'েছে',
               'েছেন', 'রছ', 'রব', 'েল', 'েলো', 'ওয়া', 'েয়ে', 'য়', 'য়ে', 'েয়েছিল', 'েছিল', 'য়েছিল', 'েয়েছিলেন',

@@ -6,8 +6,8 @@ from torch.utils.data import TensorDataset, DataLoader, SequentialSampler
 from keras.preprocessing.sequence import pad_sequences
 from pytorch_pretrained_bert import BertTokenizer
 import os
-from sbnltk.Downloader import downloader
-from sbnltk import  sbnltk_default
+from Downloader import downloader
+import  sbnltk_default
 
 
 class Bert_Cased_NER:

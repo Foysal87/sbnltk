@@ -10,10 +10,10 @@ without title
 ------------
 '''
 
-from sbnltk.FBM_Information_Extraction import feature_based_information_extraction
-from sbnltk.Semantic_Information_Extraction import information_extraction_word2vec
-from sbnltk.Semantic_Information_Extraction import information_extraction_transformer_embedding
-from sbnltk.Tokenizer import sentenceTokenizer
+from FBM_Information_Extraction import feature_based_information_extraction
+from Semantic_Information_Extraction import information_extraction_word2vec
+from Semantic_Information_Extraction import information_extraction_transformer_embedding
+from Tokenizer import sentenceTokenizer
 
 class feature_based_model:
     __fbm=None

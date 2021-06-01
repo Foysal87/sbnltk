@@ -6,7 +6,7 @@ We use autodetect for large translator call
 '''
 import time
 from time import time
-from sbnltk import sbnltk_default
+import sbnltk_default
 from google_trans_new import google_translator
 translator = google_translator()
 

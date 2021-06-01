@@ -1,12 +1,12 @@
 import gdown
 import os
-from sbnltk import sbnltk_default
+import sbnltk_default
 from os import path
 
 class downloader():
     __root_path = sbnltk_default.sbnltk_root_path
     download_link={}            # for reserved link
-    download_link_default="142XvJg9xdpgzuYD31Y4pm-ZVdMaWmtuq"    # deafault download link
+    download_link_default="1gg7lWhu4HO5CAjHr-5XBKiK4-kn8N6pL"    # deafault download link
     url_prefix="https://drive.google.com/uc?id="    # download url prefix
 
 

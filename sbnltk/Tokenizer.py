@@ -12,8 +12,8 @@ SentenceTokenizer:
 
 
 
-from sbnltk.Preprocessor import preprocessor
-from sbnltk import sbnltk_default
+from Preprocessor import preprocessor
+import sbnltk_default
 bp=preprocessor()
 class wordTokenizer:
     def basic_tokenizer(self,text):
@@ -56,11 +56,15 @@ class sentenceTokenizer:
             g = g[2:]
             g = g.decode('utf-8')
             if g == bangla_fullstop:
+                s=s.split()
+                s=' '.join(s)
                 tokens.append(s)
                 s = ""
                 continue
             s += c
         if len(s) > 0:
+            s = s.split()
+            s = ' '.join(s)
             tokens.append(s)
         return tokens
 

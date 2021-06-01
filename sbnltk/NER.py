@@ -1,8 +1,8 @@
-from sbnltk.Stemmer import stemmerOP
-from sbnltk.Preprocessor import preprocessor
-from sbnltk.Downloader import downloader
+from Stemmer import stemmerOP
+from Preprocessor import preprocessor
+from Downloader import downloader
 import pickle
-from sbnltk import  sbnltk_default
+import  sbnltk_default
 
 class static_NER:
     __ner_static_data={}
@@ -32,12 +32,24 @@ class static_NER:
                 now=' '.join(segment[i:j])
                 now2=' '.join(stems[i:j])
                 if self.__ner_static_data.get(now)!=None:
-                    sentence_tags.append((now,self.__ner_static_data[now]))
+                    temp_word=now.split()
+                    tag=self.__ner_static_data[now]
+                    for x in range(len(temp_word)):
+                        if x==0:
+                            sentence_tags.append((temp_word[x],'S-'+tag))
+                        else:
+                            sentence_tags.append((temp_word[x], 'I-' + tag))
                     i=j-1
                     flg=1
                     break
                 if self.__ner_static_data.get(now2)!=None:
-                    sentence_tags.append((now, self.__ner_static_data[now2]))
+                    temp_word = now2.split()
+                    tag = self.__ner_static_data[now2]
+                    for x in range(len(temp_word)):
+                        if x == 0:
+                            sentence_tags.append((temp_word[x], 'S-' + tag))
+                        else:
+                            sentence_tags.append((temp_word[x], 'I-' + tag))
                     i=j-1
                     flg=1
                 j-=1
