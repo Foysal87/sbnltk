@@ -6,7 +6,7 @@ from os import path
 class downloader():
     __root_path = sbnltk_default.sbnltk_root_path
     download_link={}            # for reserved link
-    download_link_default="1gg7lWhu4HO5CAjHr-5XBKiK4-kn8N6pL"    # deafault download link
+    download_link_default="142XvJg9xdpgzuYD31Y4pm-ZVdMaWmtuq"    # deafault download link
     url_prefix="https://drive.google.com/uc?id="    # download url prefix
 
 
@@ -20,7 +20,7 @@ class downloader():
 
             #download link download if it is not exist
             if path.exists(self.__root_path+'dataset/download_link.txt')==False:
-                url = self.url_prefix+self.download_link_default;
+                url = self.url_prefix+self.download_link_default
                 output = self.__root_path+'dataset/download_link.txt'
                 gdown.download(url, output, quiet=False)
 
