@@ -8,14 +8,14 @@ Types of SentimentAnalyzer
 5. SVC
 '''
 
-from Downloader import downloader
+from sbnltk.Downloader import downloader
 import pickle
 import pandas as pd
 import numpy as np
 from transformers import *
 import tensorflow as tf
 import tensorflow_addons as tfa
-import sbnltk_default
+from sbnltk import sbnltk_default
 
 
 class sentimentAnalyzer:

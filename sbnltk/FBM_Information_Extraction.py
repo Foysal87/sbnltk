@@ -4,12 +4,11 @@
 # Sentence length(0.1)
 # matched with title(0.1)
 # exact title occurs(0.1)
-from NER import sklearn_NER
-from Stemmer import stemmerOP
-from Tokenizer import wordTokenizer,sentenceTokenizer
-from Preprocessor import preprocessor
-from Postag import sklearn_postag
-from Preprocessor import preprocessor
+from sbnltk.NER import sklearn_NER
+from sbnltk.Stemmer import stemmerOP
+from sbnltk.Tokenizer import wordTokenizer,sentenceTokenizer
+from sbnltk.Preprocessor import preprocessor
+from sbnltk.Postag import sklearn_postag
 
 class feature_based_information_extraction:
     __pre=None
@@ -22,7 +21,6 @@ class feature_based_information_extraction:
     __title=""
     __nerT=None
     __posT=None
-    __pre=preprocessor()
     def __init__(self):
         self.__stemmer=stemmerOP()
         self.__pre=preprocessor()

@@ -18,8 +18,8 @@ is_number: is bangla number?
 
 import re
 import functools
-import sbnltk_default
-from Downloader import downloader
+from sbnltk import sbnltk_default
+from sbnltk.Downloader import downloader
 
 class StaticArray:
     bn2en={'0985':'a','0986':'a','0987':'i','0988':'i',

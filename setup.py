@@ -5,7 +5,7 @@ README = (HERE / "README.md").read_text()
 
 setuptools.setup(
     name="sbnltk",
-    version="1.0.4",
+    version="1.0.7",
     description="Bangla NLP toolkit",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -25,7 +25,7 @@ setuptools.setup(
 'pandas>=1.2.2',
 'scikit-learn==0.22.2.post1',
 'transformers>=4.3.2',
-'torch>=1.7.1',
+'torch',
 'tensorflow>=2.4.1',
 'sklearn_crfsuite>=0.3.6',
 'pytorch_pretrained_bert>=0.6.2',

@@ -1,6 +1,6 @@
 import numpy as np
-import sbnltk_default
-from Downloader import downloader
+from sbnltk import sbnltk_default
+from sbnltk.Downloader import downloader
 from scipy import spatial
 import  fasttext
 import pickle

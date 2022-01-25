@@ -1,6 +1,6 @@
 import gdown
 import os
-import sbnltk_default
+from sbnltk import sbnltk_default
 from os import path
 
 class downloader():
@@ -20,7 +20,7 @@ class downloader():
 
             #download link download if it is not exist
             if path.exists(self.__root_path+'dataset/download_link.txt')==False:
-                url = self.url_prefix+self.download_link_default
+                url = self.url_prefix+self.download_link_default;
                 output = self.__root_path+'dataset/download_link.txt'
                 gdown.download(url, output, quiet=False)
 

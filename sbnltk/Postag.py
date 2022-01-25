@@ -1,8 +1,8 @@
-from Tokenizer import wordTokenizer
-from Preprocessor import preprocessor
-from Stemmer import stemmerOP
-from Downloader import  downloader
-import sbnltk_default
+from sbnltk.Tokenizer import wordTokenizer
+from sbnltk.Preprocessor import preprocessor
+from sbnltk.Stemmer import stemmerOP
+from sbnltk.Downloader import  downloader
+from sbnltk import sbnltk_default
 import pickle
 
 class static_postag:

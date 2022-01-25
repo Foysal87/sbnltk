@@ -1,11 +1,11 @@
-from Tokenizer import wordTokenizer
-from word_embedding import gensim_word2vec_embedding
+from sbnltk.Tokenizer import wordTokenizer
+from sbnltk.word_embedding import gensim_word2vec_embedding
 import math
 import os
 import zipfile
-from Downloader import downloader
+from sbnltk.Downloader import downloader
 from sentence_transformers import SentenceTransformer,util
-import sbnltk_default
+from sbnltk import sbnltk_default
 
 class sentence_embedding_from_word2vec:
     __w2v=None
