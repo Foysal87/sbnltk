@@ -77,6 +77,8 @@ pip3 install simpletransformers
 |    Bi-lingual projects    |             google translator with large data detector            |      ----      |           ----          |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/Bangla%20translator.md#using-google-translator)         |
 |   Information Extraction  |                        Static word features                       |        -       |                         |       |  [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/information%20extraction.md#feature-based-extraction)         |
 |                           |                      Semantic and contextual                      |        -       |                         |       |   [docs](https://github.com/Foysal87/sbnltk/blob/main/docs/information%20extraction.md#contextual-information-extraction)       |
+|                           |                      Bangla Coreference Resolution                      |        -       |                         |       |         |
+
 
 
 ## Next releases after testing this demo
