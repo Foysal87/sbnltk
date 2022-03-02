@@ -6,7 +6,7 @@ pypi-download-stats
 [![PyPI download month](https://img.shields.io/pypi/dm/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 [![PyPI download week](https://img.shields.io/pypi/dw/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 
-# We are using Google drive to save our Models and Dataset. Google drive downloadId expired after some days. Thats why we faced lots of problem in this demo version. We will release a proper version after some months, where we will overcome these issues. Also Lots of new models, features, dataset will be avaiable in that release.  I will recommand you not to use it now. you can use our static project [bn_nlp](https://github.com/Foysal87/bn_nlp) 
+## We are using Google drive to save our Models and Dataset. Google drive downloadId expired after some days. Thats why we faced lots of problem in this demo version. We will release a proper version after some months, where we will overcome these issues. Also Lots of new models, features, dataset will be avaiable in that release.  I will recommand you not to use it now. you can use our static project [bn_nlp](https://github.com/Foysal87/bn_nlp) 
 
    
 # SBNLTK
