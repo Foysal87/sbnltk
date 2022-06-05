@@ -6,7 +6,7 @@ pypi-download-stats
 [![PyPI download month](https://img.shields.io/pypi/dm/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 [![PyPI download week](https://img.shields.io/pypi/dw/sbnltk.svg)](https://pypi.python.org/pypi/sbnltk/)
 
-## Please use colab for getting no problem. For transformer model, please install simpleTransformer first or use [bn_nlp](https://github.com/Foysal87/bn_nlp) for static models. I uploaded dataset and training details in my github.
+## Please use colab for getting no problem. For transformer model, please install simpleTransformer first or use [bn_nlp](https://github.com/Foysal87/bn_nlp) for static models. I uploaded dataset and training details in my github. *There is a problem in sentiment analyzer. I Will fix it soon.*
 
    
 # SBNLTK
