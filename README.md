@@ -12,7 +12,7 @@ pypi-download-stats
 # SBNLTK
 
 SUST-Bangla Natural Language toolkit. A python module for Bangla NLP tasks.\
-Demo Version : 1.0 \
+Demo Version : 2.0.2 \
 **NEED python 3.6+ vesrion!! Use virtual Environment for not getting unessessary Issues!!**
 
 ## INSTALLATION
@@ -20,6 +20,8 @@ Demo Version : 1.0 \
 ```commandline
 pip3 install sbnltk
 pip3 install simpletransformers
+pip3 install fasttext
+pip3 install scikit-learn
 ```
 ### MANUAL INSTALLATION FROM GITHUB
 * Clone this project
